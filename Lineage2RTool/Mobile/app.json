@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "sdkVersion": "25.0.0",
+    "name": "L2R Tools",
+    "icon": "./assets/logo.png",
+    "version": "1.0.0",
+    "slug": "L2R-Tools",
+    "ios": {
+      "bundleIdentifier": "com.lolnationCH.L2RT"
+    },
+    "android": {
+      "package": "com.lolnationCH.L2RT"
+    }
+  }
+}
