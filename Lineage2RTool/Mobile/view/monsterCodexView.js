@@ -44,7 +44,6 @@ export default class MonsterCodexView extends React.Component {
               arrCodex.push(monster_codex[i]);
           }
       }
-      console.log("Search for ", this.state.field_selected, " : ", this.state.search_field)
       this.setState({
                       codexInfoView : this.makeCodexView(arrCodex)
                     });

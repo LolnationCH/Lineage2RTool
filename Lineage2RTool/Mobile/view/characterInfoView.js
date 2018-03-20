@@ -124,7 +124,7 @@ export default class CharacterInfoView extends React.Component {
 
         <View style={styles.expTextView}>
             <Text style={styles.expText}>Level : {this.state.Level}</Text>
-            <Text style={styles.expText}>{this.state.expToReachNextLvl} / {this.state.expTotal} exp</Text>
+            <Text style={styles.expText}>{{this.state.expTotal} - {this.state.expToReachNextLvl}} exp left</Text>
             <Text style={styles.expText}>{this.calculateTimeRemainingTillNextLevel((this.state.expTotal - this.state.expToReachNextLvl),(this.state.expM / this.state.time))} until next level</Text>
         </View>
       </View>
