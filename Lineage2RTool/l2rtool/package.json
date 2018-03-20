@@ -1,5 +1,6 @@
 {
   "name": "l2rtoolDesktop",
+  "productName": "l2rtoolDesktop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
