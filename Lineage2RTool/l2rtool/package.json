@@ -4,16 +4,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "material-ui": "^1.0.0-beta.37",
     "material-ui-icons": "^1.0.0-beta.36",
     "material-ui-next": "^1.0.0-beta.37",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-redux": "^5.0.7",
     "react-scripts": "1.0.14",
-    "react-tap-event-plugin": "^3.0.2"
+    "react-tap-event-plugin": "^3.0.2",
+    "redux": "^3.7.2"
   },
   "devDependencies": {
-    "electron": "^1.7.6"
+    "electron": "^1.8.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,5 +23,6 @@
     "eject": "react-scripts eject",
     "electron": "electron ."
   },
-  "main": "src/electron-starter.js"
+  "main": "src/electron-starter.js",
+  "homepage": "./"
 }

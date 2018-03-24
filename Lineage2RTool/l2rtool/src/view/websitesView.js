@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { MuiThemeProvider, createMuiTheme } from 'material-ui-next/styles';
 import Button  from 'material-ui-next/Button';
-import Grid from 'material-ui/Grid';
+import Grid from 'material-ui-next/Grid';
 
 
 import PlayerInfo from './PlayerInfo';
@@ -43,7 +43,7 @@ class WebsitesView extends Component {
             </Button>
 
             <Grid container spacing={24}>
-              <Grid item xs={12} sm={4}>
+              <Grid item xs={12} sm={5}>
                 <PlayerInfo/>
               </Grid>
               <Grid item xs={12} sm={7}>

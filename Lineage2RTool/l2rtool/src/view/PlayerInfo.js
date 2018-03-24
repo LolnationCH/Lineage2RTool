@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import TextField from 'material-ui-next/TextField';
 import Select from 'material-ui-next/Select';
 import { MenuItem } from 'material-ui-next/Menu';
-import Grid from 'material-ui/Grid';
+import Grid from 'material-ui-next/Grid';
 
 
 import charInfo from "../data/charInfo/charInfo.json";

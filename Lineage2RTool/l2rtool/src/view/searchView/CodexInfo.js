@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Grid from 'material-ui/Grid';
-import { withStyles } from 'material-ui/styles';
+import Grid from 'material-ui-next/Grid';
+import { withStyles } from 'material-ui-next/styles';
 import Select from 'material-ui-next/Select';
 import { MenuItem } from 'material-ui-next/Menu';
 import TextField from 'material-ui-next/TextField';
@@ -19,6 +19,9 @@ const CustomTableCell = withStyles(theme => ({
   body: {
     textAlign: 'center',
     fontSize: 14,
+    backgroundColor: theme.palette.common.white,
+    color: theme.palette.common.black,
+    textAlign: 'center',
   },
 }))(TableCell);
 
