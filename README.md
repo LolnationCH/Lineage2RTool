@@ -1,3 +1,6 @@
+# NOTICE
+I stopped playing the game, if you want to take what I have done and complete it, feel free.
+
 # Lineage2RTool
 This is a tool to help with grinding in Lineage 2 : Revolution.
 
